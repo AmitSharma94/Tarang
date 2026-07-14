@@ -1,0 +1,152 @@
+[1mdiff --git a/.github/ISSUE_TEMPLATE/bug_report.yml b/.github/ISSUE_TEMPLATE/bug_report.yml[m
+[1mindex 69605713..c0939289 100644[m
+[1m--- a/.github/ISSUE_TEMPLATE/bug_report.yml[m
+[1m+++ b/.github/ISSUE_TEMPLATE/bug_report.yml[m
+[36m@@ -1,5 +1,5 @@[m
+ name: 🐞 Issue Report[m
+[31m-description: Report an issue in Musify[m
+[32m+[m[32mdescription: Report an issue in Tarang[m
+ title: '[Bug] <title>'[m
+ labels: "type: bug"[m
+ assignees:[m
+[36m@@ -14,11 +14,11 @@[m [mbody:[m
+       options:[m
+         - label: I have searched the existing issues and confirmed that this is a new issue, not a duplicate or related to another open issue.[m
+           required: true[m
+[31m-        - label: I read the [FAQ section](https://github.com/gokadzev/Musify/discussions/340) and there's nothing mentioned about this issue.[m
+[32m+[m[32m        - label: I read the [FAQ section](https://github.com/gokadzev/Tarang/discussions/340) and there's nothing mentioned about this issue.[m
+           required: true[m
+         - label: I have written a short but informative title.[m
+           required: true[m
+[31m-        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/gokadzev/Musify/releases).[m
+[32m+[m[32m        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/gokadzev/Tarang/releases).[m
+           required: true[m
+         - label: I will fill out all the sections in this issue report.[m
+           required: true[m
+[36m@@ -51,8 +51,8 @@[m [mbody:[m
+ [m
+   - type: input[m
+     attributes:[m
+[31m-      label: Musify Version[m
+[31m-      description: Mention the version of Musify in which you encountered this bug.[m
+[32m+[m[32m      label: Tarang Version[m
+[32m+[m[32m      description: Mention the version of Tarang in which you encountered this bug.[m
+       placeholder: e.g., v9.0.0[m
+     validations:[m
+       required: true[m
+[36m@@ -93,3 +93,4 @@[m [mbody:[m
+       description: Add any additional information or context that may be helpful in resolving the issue.[m
+     validations:[m
+       required: false[m
+[41m+[m
+[1mdiff --git a/.github/ISSUE_TEMPLATE/feature_request.yml b/.github/ISSUE_TEMPLATE/feature_request.yml[m
+[1mindex aab1b414..7921a478 100644[m
+[1m--- a/.github/ISSUE_TEMPLATE/feature_request.yml[m
+[1m+++ b/.github/ISSUE_TEMPLATE/feature_request.yml[m
+[36m@@ -13,7 +13,7 @@[m [mbody:[m
+       options:[m
+         - label: I have searched the existing issues and confirmed that this feature is not already requested.[m
+           required: true[m
+[31m-        - label: I read the [FAQ section](https://github.com/gokadzev/Musify/discussions/340) and there's nothing mentioned about this feature.[m
+[32m+[m[32m        - label: I read the [FAQ section](https://github.com/gokadzev/Tarang/discussions/340) and there's nothing mentioned about this feature.[m
+           required: true[m
+ [m
+   - type: dropdown[m
+[36m@@ -58,3 +58,4 @@[m [mbody:[m
+       description: Provide any useful resources or references that can help in implementing your suggested solution.[m
+     validations:[m
+       required: false[m
+[41m+[m
+[1mdiff --git a/.github/workflows/debug.yml b/.github/workflows/debug.yml[m
+[1mindex 7d95afcd..e6363377 100644[m
+[1m--- a/.github/workflows/debug.yml[m
+[1m+++ b/.github/workflows/debug.yml[m
+[36m@@ -39,5 +39,6 @@[m [mjobs:[m
+       # Upload universal generated apk to the artifacts.[m
+       - uses: actions/upload-artifact@v3[m
+         with:[m
+[31m-          name: Musify-debug.apk[m
+[32m+[m[32m          name: Tarang-debug.apk[m
+           path: build/app/outputs/flutter-apk/app-github-debug.apk[m
+[41m+[m
+[1mdiff --git a/.github/workflows/fdroid.yml b/.github/workflows/fdroid.yml[m
+[1mindex db6cb229..a14a4278 100644[m
+[1m--- a/.github/workflows/fdroid.yml[m
+[1m+++ b/.github/workflows/fdroid.yml[m
+[36m@@ -70,10 +70,11 @@[m [mjobs:[m
+       # Release universal Fdroid apk.[m
+       - uses: svenstaro/upload-release-action@v2[m
+         with:[m
+[31m-          repo_name: gokadzev/Musify[m
+[32m+[m[32m          repo_name: gokadzev/Tarang[m
+           repo_token: ${{ secrets.GITHUB_TOKEN }}[m
+           file: build/app/outputs/flutter-apk/app-fdroid-release.apk[m
+[31m-          asset_name: Musify-fdroid.apk[m
+[32m+[m[32m          asset_name: Tarang-fdroid.apk[m
+           tag: ${{ steps.extract_version.outputs.version }}[m
+           prerelease: false[m
+           overwrite: true[m
+[41m+[m
+[1mdiff --git a/.github/workflows/pre_beta.yml b/.github/workflows/pre_beta.yml[m
+[1mindex 197bc171..1ef60d8b 100644[m
+[1m--- a/.github/workflows/pre_beta.yml[m
+[1m+++ b/.github/workflows/pre_beta.yml[m
+[36m@@ -40,13 +40,14 @@[m [mjobs:[m
+     - run: flutter build apk --debug --flavor github[m
+     - uses: svenstaro/upload-release-action@v2[m
+       with:[m
+[31m-        repo_name: gokadzev/Musify[m
+[32m+[m[32m        repo_name: gokadzev/Tarang[m
+         repo_token: ${{ secrets.GITHUB_TOKEN }}[m
+         file: build/app/outputs/flutter-apk/app-github-debug.apk[m
+[31m-        asset_name: Musify-debug.apk[m
+[32m+[m[32m        asset_name: Tarang-debug.apk[m
+         tag: ${{ github.ref }}[m
+         prerelease: true[m
+         overwrite: true[m
+[31m-        body: "**New Musify Debug App!** \n[m
+[32m+[m[32m        body: "**New Tarang Debug App!** \n[m
+         with Debug / BETA builds you have access to the latest build of the app. Only use this version if you test the app, provide feedback, and help us improve its performance. Please note that Debug/BETA versions of the app may be pretty unstable. You may experience crashes, bugs, or other issues while using the app..[m
+         "[m
+[41m+[m
+[1mdiff --git a/.github/workflows/pre_fdroid.yml b/.github/workflows/pre_fdroid.yml[m
+[1mindex d71f367f..255070a6 100644[m
+[1m--- a/.github/workflows/pre_fdroid.yml[m
+[1m+++ b/.github/workflows/pre_fdroid.yml[m
+[36m@@ -53,13 +53,13 @@[m [mjobs:[m
+       # Release universal Fdroid pre-release apk.[m
+       - uses: svenstaro/upload-release-action@v2[m
+         with:[m
+[31m-          repo_name: gokadzev/Musify[m
+[32m+[m[32m          repo_name: gokadzev/Tarang[m
+           repo_token: ${{ secrets.GITHUB_TOKEN }}[m
+           file: build/app/outputs/flutter-apk/app-fdroid-release.apk[m
+[31m-          asset_name: Musify_fdroid.apk[m
+[32m+[m[32m          asset_name: Tarang_fdroid.apk[m
+           tag: ${{ github.ref }}[m
+           prerelease: true[m
+           overwrite: true[m
+[31m-          body: "**New Musify Fdroid Pre-Release!** \n[m
+[32m+[m[32m          body: "**New Tarang Fdroid Pre-Release!** \n[m
+           with pre-release / [BETA] builds you have access to the latest build of the app before it is released as stable-release version. Only use pre-release if you test the app, provide feedback, and help us improve its performance. Please note that pre-release versions of the app may be pretty unstable. You may experience crashes, bugs, or other issues while using the app. This is because pre-release version is still in development.[m
+[31m-          "[m
+\ No newline at end of file[m
+[32m+[m[32m          "[m
+[1mdiff --git a/.github/workflows/pre_release.yml b/.github/workflows/pre_release.yml[m
+[1mindex cba92644..e32f4502 100644[m
+[1m--- a/.github/workflows/pre_release.yml[m
+[1m+++ b/.github/workflows/pre_release.yml[m
+[36m@@ -46,13 +46,13 @@[m [mjobs:[m
+     - name: Release arm64 APK[m
+       uses: svenstaro/upload-release-action@v2[m
+       with:[m
+[31m-        repo_name: gokadzev/Musify[m
+[32m+[m[32m        repo_name: gokadzev/Tarang[m
+         repo_token: ${{ secrets.GITHUB_TOKEN }}[m
+         file: build/app/outputs/flutter-apk/app-arm64-v8a-github-release.apk[m
+[31m-        asset_name: Musify-arm64-v8a.apk[m
+[32m+[m[32m        asset_name: Tarang-arm64-v8a.apk[m
+         tag: ${{ github.ref }}[m
+         prerelease: true[m
+         overwrite: true[m
+[31m-        body: "**New Musify P

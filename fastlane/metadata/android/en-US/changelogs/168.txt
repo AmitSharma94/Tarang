@@ -5,4 +5,4 @@ Enhancements
 Bug fixes
 - Fixed queue and shuffle bugs
 - Fixed app freeze on startup
-- Full changelog: https://github.com/gokadzev/Musify/releases
+- Full changelog: https://github.com/gokadzev/Tarang/releases

@@ -1,12 +1,12 @@
 /*
  *     Copyright (C) 2026 Valeri Gokadze
  *
- *     Musify is free software: you can redistribute it and/or modify
+ *     Tarang is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
  *
- *     Musify is distributed in the hope that it will be useful,
+ *     Tarang is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
@@ -15,15 +15,15 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  *
- *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/gokadzev/Musify
+ *     For more information about Tarang, including how to contribute,
+ *     please visit: https://github.com/gokadzev/Tarang
  */
 
 import 'package:flutter/material.dart';
-import 'package:musify/extensions/l10n.dart';
-import 'package:musify/widgets/song_bar.dart';
+import 'package:Tarang/extensions/l10n.dart';
+import 'package:Tarang/widgets/song_bar.dart';
 
-const _musifyIconAsset = 'assets/icons/musify_icon.png';
+const _TarangIconAsset = 'assets/icons/Tarang_icon.png';
 
 class ListeningRecapCard extends StatelessWidget {
   const ListeningRecapCard({
@@ -153,13 +153,13 @@ class _RecapBrandHeader extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ImageIcon(
-                      const AssetImage(_musifyIconAsset),
+                      const AssetImage(_TarangIconAsset),
                       size: 16,
                       color: colorScheme.onSecondaryContainer,
                     ),
                     const SizedBox(width: 6),
                     Text(
-                      'Musify',
+                      'Tarang',
                       maxLines: 1,
                       style: TextStyle(
                         color: colorScheme.onSecondaryContainer,
@@ -186,3 +186,5 @@ class _RecapBrandHeader extends StatelessWidget {
     );
   }
 }
+
+

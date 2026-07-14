@@ -5,4 +5,4 @@ Enhancements
 Bug fixes
 - Added missing padding around sorting chips
 - Fixed more queue issues
-- Full changelog: https://github.com/gokadzev/Musify/releases
+- Full changelog: https://github.com/gokadzev/Tarang/releases

@@ -1,12 +1,12 @@
 /*
  *     Copyright (C) 2026 Valeri Gokadze
  *
- *     Musify is free software: you can redistribute it and/or modify
+ *     Tarang is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
  *
- *     Musify is distributed in the hope that it will be useful,
+ *     Tarang is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
@@ -15,19 +15,19 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  *
- *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/gokadzev/Musify
+ *     For more information about Tarang, including how to contribute,
+ *     please visit: https://github.com/gokadzev/Tarang
  */
 
-import 'package:musify/services/audio_service.dart';
-import 'package:musify/services/common_services.dart';
-import 'package:musify/utilities/formatter.dart';
+import 'package:Tarang/services/audio_service.dart';
+import 'package:Tarang/services/common_services.dart';
+import 'package:Tarang/utilities/formatter.dart';
 
 final _youtubeLinkRegex = RegExp(r'(youtube\.com|youtu\.be)');
 
 Future<void> handleYoutubeSharedTextIntent(
   String? value, {
-  required MusifyAudioHandler audioHandler,
+  required TarangAudioHandler audioHandler,
   required void Function(Object error, StackTrace stackTrace) onError,
 }) async {
   if (value == null || !_youtubeLinkRegex.hasMatch(value)) {
@@ -49,7 +49,7 @@ Future<void> handleYoutubeSharedTextIntent(
 
 Future<void> consumeYoutubeSharedTextIntent(
   String? value, {
-  required MusifyAudioHandler audioHandler,
+  required TarangAudioHandler audioHandler,
   required void Function(Object error, StackTrace stackTrace) onError,
 }) async {
   if (value == null || value.isEmpty) {
@@ -67,3 +67,5 @@ Future<void> consumeYoutubeSharedTextIntent(
     onError: onError,
   );
 }
+
+

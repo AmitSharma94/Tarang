@@ -1,12 +1,12 @@
 /*
  *     Copyright (C) 2026 Valeri Gokadze
  *
- *     Musify is free software: you can redistribute it and/or modify
+ *     Tarang is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
  *
- *     Musify is distributed in the hope that it will be useful,
+ *     Tarang is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
@@ -15,8 +15,8 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  *
- *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/gokadzev/Musify
+ *     For more information about Tarang, including how to contribute,
+ *     please visit: https://github.com/gokadzev/Tarang
  */
 
 import 'dart:async';
@@ -27,18 +27,18 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:musify/extensions/l10n.dart';
-import 'package:musify/main.dart';
-import 'package:musify/services/common_services.dart';
-import 'package:musify/services/playlists_manager.dart';
-import 'package:musify/services/router_service.dart';
-import 'package:musify/services/settings_manager.dart';
-import 'package:musify/utilities/flutter_toast.dart';
-import 'package:musify/utilities/formatter.dart';
-import 'package:musify/utilities/playlist_dialogs.dart';
-import 'package:musify/widgets/no_artwork_cube.dart';
-import 'package:musify/widgets/overflow_menu_button.dart';
-import 'package:musify/widgets/rename_song_dialog.dart';
+import 'package:Tarang/extensions/l10n.dart';
+import 'package:Tarang/main.dart';
+import 'package:Tarang/services/common_services.dart';
+import 'package:Tarang/services/playlists_manager.dart';
+import 'package:Tarang/services/router_service.dart';
+import 'package:Tarang/services/settings_manager.dart';
+import 'package:Tarang/utilities/flutter_toast.dart';
+import 'package:Tarang/utilities/formatter.dart';
+import 'package:Tarang/utilities/playlist_dialogs.dart';
+import 'package:Tarang/widgets/no_artwork_cube.dart';
+import 'package:Tarang/widgets/overflow_menu_button.dart';
+import 'package:Tarang/widgets/rename_song_dialog.dart';
 
 List<PopupMenuEntry<String>> _buildSongMenuItems({
   required BuildContext context,
@@ -878,3 +878,5 @@ class _OnlineArtwork extends StatelessWidget {
     );
   }
 }
+
+

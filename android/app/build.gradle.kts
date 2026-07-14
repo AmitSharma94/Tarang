@@ -23,7 +23,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.gokadzev.musify"
+    namespace = "com.amit94.tarang"
     compileSdk = 36
     ndkVersion = "28.2.13676358"
 
@@ -42,7 +42,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.gokadzev.musify"
+        applicationId = "com.amit94.tarang"
         minSdk = 24
         targetSdk = 36
         versionCode = flutter.versionCode
@@ -114,3 +114,7 @@ kotlin {
 afterEvaluate {
     apply(from = "../no-build-id.gradle")
 }
+
+
+
+

@@ -1,12 +1,12 @@
 /*
  *     Copyright (C) 2026 Valeri Gokadze
  *
- *     Musify is free software: you can redistribute it and/or modify
+ *     Tarang is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
  *
- *     Musify is distributed in the hope that it will be useful,
+ *     Tarang is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
@@ -15,29 +15,29 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  *
- *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/gokadzev/Musify
+ *     For more information about Tarang, including how to contribute,
+ *     please visit: https://github.com/gokadzev/Tarang
  */
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:musify/constants/version.dart';
-import 'package:musify/screens/about_page.dart';
-import 'package:musify/screens/artist_page.dart';
-import 'package:musify/screens/bottom_navigation_page.dart';
-import 'package:musify/screens/equalizer_page.dart';
-import 'package:musify/screens/home_page.dart';
-import 'package:musify/screens/library_page.dart';
-import 'package:musify/screens/playlist_folder_page.dart';
-import 'package:musify/screens/playlist_page.dart';
-import 'package:musify/screens/search_page.dart';
-import 'package:musify/screens/settings_page.dart';
-import 'package:musify/screens/time_machine_page.dart';
-import 'package:musify/screens/user_songs_page.dart';
-import 'package:musify/services/playlist_download_service.dart';
-import 'package:musify/services/settings_manager.dart';
-import 'package:musify/widgets/offline_search_placeholder.dart';
+import 'package:Tarang/constants/version.dart';
+import 'package:Tarang/screens/about_page.dart';
+import 'package:Tarang/screens/artist_page.dart';
+import 'package:Tarang/screens/bottom_navigation_page.dart';
+import 'package:Tarang/screens/equalizer_page.dart';
+import 'package:Tarang/screens/home_page.dart';
+import 'package:Tarang/screens/library_page.dart';
+import 'package:Tarang/screens/playlist_folder_page.dart';
+import 'package:Tarang/screens/playlist_page.dart';
+import 'package:Tarang/screens/search_page.dart';
+import 'package:Tarang/screens/settings_page.dart';
+import 'package:Tarang/screens/time_machine_page.dart';
+import 'package:Tarang/screens/user_songs_page.dart';
+import 'package:Tarang/services/playlist_download_service.dart';
+import 'package:Tarang/services/settings_manager.dart';
+import 'package:Tarang/widgets/offline_search_placeholder.dart';
 
 class NavigationManager {
   factory NavigationManager() {
@@ -291,7 +291,7 @@ class NavigationManager {
                 path: 'license',
                 pageBuilder: (context, state) => _pushPage(
                   child: const LicensePage(
-                    applicationName: 'Musify',
+                    applicationName: 'Tarang',
                     applicationVersion: appVersion,
                   ),
                   state: state,
@@ -371,3 +371,5 @@ class NavigationManager {
     );
   }
 }
+
+

@@ -1,12 +1,12 @@
 /*
  *     Copyright (C) 2026 Valeri Gokadze
  *
- *     Musify is free software: you can redistribute it and/or modify
+ *     Tarang is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
  *
- *     Musify is distributed in the hope that it will be useful,
+ *     Tarang is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
@@ -15,8 +15,8 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  *
- *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/gokadzev/Musify
+ *     For more information about Tarang, including how to contribute,
+ *     please visit: https://github.com/gokadzev/Tarang
  */
 
 import 'dart:async';
@@ -26,19 +26,19 @@ import 'package:audio_service/audio_service.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:hive/hive.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:musify/main.dart';
-import 'package:musify/models/position_data.dart';
-import 'package:musify/services/common_services.dart';
-import 'package:musify/services/data_manager.dart';
-import 'package:musify/services/listening_stats_service.dart';
-import 'package:musify/services/settings_manager.dart';
-import 'package:musify/utilities/map_utils.dart';
-import 'package:musify/utilities/mediaitem.dart';
-import 'package:musify/utilities/queue_entry_utils.dart';
+import 'package:Tarang/main.dart';
+import 'package:Tarang/models/position_data.dart';
+import 'package:Tarang/services/common_services.dart';
+import 'package:Tarang/services/data_manager.dart';
+import 'package:Tarang/services/listening_stats_service.dart';
+import 'package:Tarang/services/settings_manager.dart';
+import 'package:Tarang/utilities/map_utils.dart';
+import 'package:Tarang/utilities/mediaitem.dart';
+import 'package:Tarang/utilities/queue_entry_utils.dart';
 import 'package:rxdart/rxdart.dart';
 
-class MusifyAudioHandler extends BaseAudioHandler {
-  MusifyAudioHandler() {
+class TarangAudioHandler extends BaseAudioHandler {
+  TarangAudioHandler() {
     _androidEqualizer = AndroidEqualizer();
     audioPlayer = AudioPlayer(
       audioPipeline: AudioPipeline(androidAudioEffects: [_androidEqualizer]),
@@ -1479,7 +1479,7 @@ class MusifyAudioHandler extends BaseAudioHandler {
     return mapToMediaItem(normalisedSong).copyWith(
       id: _recentMediaId(ytid),
       displayTitle: normalisedSong['title']?.toString(),
-      displaySubtitle: artist.isEmpty ? 'Musify' : artist,
+      displaySubtitle: artist.isEmpty ? 'Tarang' : artist,
     );
   }
 
@@ -1489,7 +1489,7 @@ class MusifyAudioHandler extends BaseAudioHandler {
 
     await playPlaylistSong(
       playlist: {
-        'title': 'Musify',
+        'title': 'Tarang',
         'source': 'system-recent',
         'list': [normalisedSong],
       },
@@ -2456,3 +2456,5 @@ class _PlaybackSource {
   final String songUrl;
   final bool isOffline;
 }
+
+
