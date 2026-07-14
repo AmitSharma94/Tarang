@@ -21,12 +21,12 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/playlist_image_picker.dart';
-import 'package:Tarang/widgets/dialog_item.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/playlist_image_picker.dart';
+import 'package:tarang/widgets/dialog_item.dart';
 
 void showCreatePlaylistDialog(
   BuildContext context, {

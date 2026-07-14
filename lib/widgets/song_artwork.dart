@@ -24,8 +24,8 @@ import 'dart:io';
 import 'package:audio_service/audio_service.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/widgets/no_artwork_cube.dart';
-import 'package:Tarang/widgets/spinner.dart';
+import 'package:tarang/widgets/no_artwork_cube.dart';
+import 'package:tarang/widgets/spinner.dart';
 
 class SongArtworkWidget extends StatelessWidget {
   const SongArtworkWidget({

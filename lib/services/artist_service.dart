@@ -21,10 +21,10 @@
 
 import 'dart:async';
 
-import 'package:Tarang/main.dart' show logger;
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/proxy_manager.dart';
-import 'package:Tarang/utilities/formatter.dart';
+import 'package:tarang/main.dart' show logger;
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/proxy_manager.dart';
+import 'package:tarang/utilities/formatter.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 import 'package:youtube_music_explode_dart/youtube_music_explode_dart.dart';
 

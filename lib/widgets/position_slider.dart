@@ -20,9 +20,9 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/models/position_data.dart';
-import 'package:Tarang/utilities/formatter.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/models/position_data.dart';
+import 'package:tarang/utilities/formatter.dart';
 
 PositionData _positionData = PositionData(
   Duration.zero,

@@ -20,7 +20,7 @@
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:Tarang/services/common_services.dart';
+import 'package:tarang/services/common_services.dart';
 
 Map mediaItemToMap(MediaItem mediaItem) {
   final extras = mediaItem.extras;

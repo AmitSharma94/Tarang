@@ -22,22 +22,22 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Tarang/constants/version.dart';
-import 'package:Tarang/screens/about_page.dart';
-import 'package:Tarang/screens/artist_page.dart';
-import 'package:Tarang/screens/bottom_navigation_page.dart';
-import 'package:Tarang/screens/equalizer_page.dart';
-import 'package:Tarang/screens/home_page.dart';
-import 'package:Tarang/screens/library_page.dart';
-import 'package:Tarang/screens/playlist_folder_page.dart';
-import 'package:Tarang/screens/playlist_page.dart';
-import 'package:Tarang/screens/search_page.dart';
-import 'package:Tarang/screens/settings_page.dart';
-import 'package:Tarang/screens/time_machine_page.dart';
-import 'package:Tarang/screens/user_songs_page.dart';
-import 'package:Tarang/services/playlist_download_service.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/widgets/offline_search_placeholder.dart';
+import 'package:tarang/constants/version.dart';
+import 'package:tarang/screens/about_page.dart';
+import 'package:tarang/screens/artist_page.dart';
+import 'package:tarang/screens/bottom_navigation_page.dart';
+import 'package:tarang/screens/equalizer_page.dart';
+import 'package:tarang/screens/home_page.dart';
+import 'package:tarang/screens/library_page.dart';
+import 'package:tarang/screens/playlist_folder_page.dart';
+import 'package:tarang/screens/playlist_page.dart';
+import 'package:tarang/screens/search_page.dart';
+import 'package:tarang/screens/settings_page.dart';
+import 'package:tarang/screens/time_machine_page.dart';
+import 'package:tarang/screens/user_songs_page.dart';
+import 'package:tarang/services/playlist_download_service.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/widgets/offline_search_placeholder.dart';
 
 class NavigationManager {
   factory NavigationManager() {

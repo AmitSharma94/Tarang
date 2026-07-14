@@ -24,12 +24,12 @@ import 'dart:math' as math;
 import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/models/full_player_state.dart';
-import 'package:Tarang/models/position_data.dart';
-import 'package:Tarang/screens/now_playing_page.dart';
-import 'package:Tarang/widgets/marquee.dart';
-import 'package:Tarang/widgets/song_artwork.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/models/full_player_state.dart';
+import 'package:tarang/models/position_data.dart';
+import 'package:tarang/screens/now_playing_page.dart';
+import 'package:tarang/widgets/marquee.dart';
+import 'package:tarang/widgets/song_artwork.dart';
 import 'package:rxdart/rxdart.dart';
 
 final Stream<FullPlayerState> _fullPlayerStateStream =

@@ -21,8 +21,8 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/utilities/artwork_provider.dart';
-import 'package:Tarang/widgets/no_artwork_cube.dart';
+import 'package:tarang/utilities/artwork_provider.dart';
+import 'package:tarang/widgets/no_artwork_cube.dart';
 
 class PlaylistArtwork extends StatelessWidget {
   const PlaylistArtwork({

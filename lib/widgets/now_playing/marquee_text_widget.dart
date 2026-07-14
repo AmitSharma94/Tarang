@@ -20,7 +20,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/widgets/marquee.dart';
+import 'package:tarang/widgets/marquee.dart';
 
 class MarqueeTextWidget extends StatelessWidget {
   const MarqueeTextWidget({

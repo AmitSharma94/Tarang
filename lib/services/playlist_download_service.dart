@@ -27,13 +27,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/io_service.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/io_service.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
 
 class OfflinePlaylistService {
   factory OfflinePlaylistService() => _instance;

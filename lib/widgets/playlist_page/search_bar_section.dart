@@ -20,7 +20,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/widgets/custom_search_bar.dart';
+import 'package:tarang/widgets/custom_search_bar.dart';
 
 class SearchBarSection extends StatefulWidget {
   const SearchBarSection({

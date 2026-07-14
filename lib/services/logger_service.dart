@@ -21,7 +21,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:Tarang/extensions/l10n.dart';
+import 'package:tarang/extensions/l10n.dart';
 
 class Logger {
   String _logs = '';

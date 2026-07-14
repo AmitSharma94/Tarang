@@ -20,7 +20,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/widgets/section_title.dart';
+import 'package:tarang/widgets/section_title.dart';
 
 class SectionHeader extends StatelessWidget {
   const SectionHeader({

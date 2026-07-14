@@ -24,13 +24,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/flutter_bottom_sheet.dart'
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/flutter_bottom_sheet.dart'
     show closeCurrentBottomSheet;
-import 'package:Tarang/widgets/mini_player.dart';
+import 'package:tarang/widgets/mini_player.dart';
 
 class BottomNavigationPage extends StatefulWidget {
   const BottomNavigationPage({required this.child, super.key});

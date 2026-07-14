@@ -20,9 +20,9 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/widgets/spinner.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/widgets/spinner.dart';
 
 Widget _defaultAsyncLoaderErrorBuilder(
   BuildContext context,

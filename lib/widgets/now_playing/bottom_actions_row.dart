@@ -22,15 +22,15 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/flutter_bottom_sheet.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/mediaitem.dart';
-import 'package:Tarang/utilities/playlist_dialogs.dart';
-import 'package:Tarang/widgets/queue_list_view.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/flutter_bottom_sheet.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/mediaitem.dart';
+import 'package:tarang/utilities/playlist_dialogs.dart';
+import 'package:tarang/widgets/queue_list_view.dart';
 
 class BottomActionsRow extends StatefulWidget {
   const BottomActionsRow({

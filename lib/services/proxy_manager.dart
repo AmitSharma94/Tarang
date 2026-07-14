@@ -26,10 +26,10 @@ import 'dart:math';
 
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
-import 'package:Tarang/constants/clients.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/models/proxy_model.dart';
-import 'package:Tarang/services/settings_manager.dart';
+import 'package:tarang/constants/clients.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/models/proxy_model.dart';
+import 'package:tarang/services/settings_manager.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
 class _ProxyResources {

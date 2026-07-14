@@ -21,9 +21,9 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/artist_service.dart';
-import 'package:Tarang/utilities/artwork_provider.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/artist_service.dart';
+import 'package:tarang/utilities/artwork_provider.dart';
 
 class ArtistBar extends StatelessWidget {
   const ArtistBar({

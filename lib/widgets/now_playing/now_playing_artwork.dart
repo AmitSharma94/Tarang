@@ -23,11 +23,11 @@ import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_flip_card/flutter_flip_card.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/async_loader.dart';
-import 'package:Tarang/widgets/song_artwork.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/async_loader.dart';
+import 'package:tarang/widgets/song_artwork.dart';
 
 class NowPlayingArtwork extends StatelessWidget {
   const NowPlayingArtwork({

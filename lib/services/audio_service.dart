@@ -26,15 +26,15 @@ import 'package:audio_service/audio_service.dart';
 import 'package:audio_session/audio_session.dart';
 import 'package:hive/hive.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/models/position_data.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/listening_stats_service.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/map_utils.dart';
-import 'package:Tarang/utilities/mediaitem.dart';
-import 'package:Tarang/utilities/queue_entry_utils.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/models/position_data.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/listening_stats_service.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/map_utils.dart';
+import 'package:tarang/utilities/mediaitem.dart';
+import 'package:tarang/utilities/queue_entry_utils.dart';
 import 'package:rxdart/rxdart.dart';
 
 class TarangAudioHandler extends BaseAudioHandler {

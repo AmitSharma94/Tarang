@@ -20,9 +20,9 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/widgets/mini_player.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/widgets/mini_player.dart';
 
 class RenameSongDialog extends StatefulWidget {
   const RenameSongDialog({

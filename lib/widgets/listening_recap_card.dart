@@ -20,8 +20,8 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/widgets/song_bar.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/widgets/song_bar.dart';
 
 const _TarangIconAsset = 'assets/icons/Tarang_icon.png';
 

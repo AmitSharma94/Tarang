@@ -19,9 +19,9 @@
  *     please visit: https://github.com/gokadzev/Tarang
  */
 
-import 'package:Tarang/services/audio_service.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/utilities/formatter.dart';
+import 'package:tarang/services/audio_service.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/utilities/formatter.dart';
 
 final _youtubeLinkRegex = RegExp(r'(youtube\.com|youtu\.be)');
 

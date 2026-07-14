@@ -22,11 +22,11 @@
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/widgets/mini_player_bottom_space.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/widgets/mini_player_bottom_space.dart';
 
 class EqualizerPage extends StatefulWidget {
   const EqualizerPage({super.key});

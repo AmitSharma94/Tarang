@@ -27,18 +27,18 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/services/router_service.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/formatter.dart';
-import 'package:Tarang/utilities/playlist_dialogs.dart';
-import 'package:Tarang/widgets/no_artwork_cube.dart';
-import 'package:Tarang/widgets/overflow_menu_button.dart';
-import 'package:Tarang/widgets/rename_song_dialog.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/services/router_service.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/formatter.dart';
+import 'package:tarang/utilities/playlist_dialogs.dart';
+import 'package:tarang/widgets/no_artwork_cube.dart';
+import 'package:tarang/widgets/overflow_menu_button.dart';
+import 'package:tarang/widgets/rename_song_dialog.dart';
 
 List<PopupMenuEntry<String>> _buildSongMenuItems({
   required BuildContext context,

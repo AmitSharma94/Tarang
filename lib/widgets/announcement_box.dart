@@ -21,8 +21,8 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/utilities/url_launcher.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/utilities/url_launcher.dart';
 
 class AnnouncementBox extends StatelessWidget {
   const AnnouncementBox({

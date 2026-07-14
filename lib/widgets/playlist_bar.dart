@@ -24,21 +24,21 @@ import 'dart:async';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/artist_service.dart';
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/services/router_service.dart';
-import 'package:Tarang/utilities/artwork_provider.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/offline_playlist_dialogs.dart';
-import 'package:Tarang/utilities/playlist_dialogs.dart';
-import 'package:Tarang/utilities/playlist_utils.dart';
-import 'package:Tarang/widgets/dialog_item.dart';
-import 'package:Tarang/widgets/edit_playlist_dialog.dart';
-import 'package:Tarang/widgets/overflow_menu_button.dart';
-import 'package:Tarang/widgets/spinner.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/artist_service.dart';
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/services/router_service.dart';
+import 'package:tarang/utilities/artwork_provider.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/offline_playlist_dialogs.dart';
+import 'package:tarang/utilities/playlist_dialogs.dart';
+import 'package:tarang/utilities/playlist_utils.dart';
+import 'package:tarang/widgets/dialog_item.dart';
+import 'package:tarang/widgets/edit_playlist_dialog.dart';
+import 'package:tarang/widgets/overflow_menu_button.dart';
+import 'package:tarang/widgets/spinner.dart';
 
 class PlaylistBar extends StatelessWidget {
   PlaylistBar(

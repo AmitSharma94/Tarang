@@ -23,11 +23,11 @@ import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_flip_card/flutter_flip_card.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/widgets/now_playing/bottom_actions_row.dart';
-import 'package:Tarang/widgets/now_playing/now_playing_artwork.dart';
-import 'package:Tarang/widgets/now_playing/now_playing_controls.dart';
-import 'package:Tarang/widgets/queue_list_view.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/widgets/now_playing/bottom_actions_row.dart';
+import 'package:tarang/widgets/now_playing/now_playing_artwork.dart';
+import 'package:tarang/widgets/now_playing/now_playing_controls.dart';
+import 'package:tarang/widgets/queue_list_view.dart';
 
 class NowPlayingPage extends StatefulWidget {
   const NowPlayingPage({super.key});

@@ -20,7 +20,7 @@
  */
 
 import 'package:audio_service/audio_service.dart';
-import 'package:Tarang/models/position_data.dart';
+import 'package:tarang/models/position_data.dart';
 
 class FullPlayerState {
   FullPlayerState({

@@ -21,11 +21,11 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/constants/version.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/utilities/url_launcher.dart';
-import 'package:Tarang/widgets/mini_player_bottom_space.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/constants/version.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/utilities/url_launcher.dart';
+import 'package:tarang/widgets/mini_player_bottom_space.dart';
 
 class AboutPage extends StatelessWidget {
   const AboutPage({super.key});

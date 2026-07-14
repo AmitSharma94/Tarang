@@ -23,11 +23,11 @@ import 'dart:async';
 
 import 'package:hive/hive.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:Tarang/main.dart' show logger;
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/listening_stats_utils.dart';
-import 'package:Tarang/utilities/map_utils.dart';
+import 'package:tarang/main.dart' show logger;
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/listening_stats_utils.dart';
+import 'package:tarang/utilities/map_utils.dart';
 
 final listeningStatsService = ListeningStatsService();
 

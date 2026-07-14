@@ -26,14 +26,14 @@ import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:Tarang/constants/version.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/router_service.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/url_launcher.dart';
-import 'package:Tarang/widgets/auto_format_text.dart';
+import 'package:tarang/constants/version.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/router_service.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/url_launcher.dart';
+import 'package:tarang/widgets/auto_format_text.dart';
 
 const String checkUrl =
     'https://raw.githubusercontent.com/gokadzev/Tarang/update/check.json';

@@ -21,8 +21,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/services/settings_manager.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/services/settings_manager.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
 BorderRadius getItemBorderRadius(

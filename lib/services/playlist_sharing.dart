@@ -21,10 +21,10 @@
 
 import 'dart:convert';
 
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/proxy_manager.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/formatter.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/proxy_manager.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/formatter.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
 class PlaylistSharingService {

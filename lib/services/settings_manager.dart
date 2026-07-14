@@ -22,9 +22,9 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:Tarang/screens/playlist_page.dart';
-import 'package:Tarang/screens/user_songs_page.dart';
-import 'package:Tarang/utilities/language_utils.dart';
+import 'package:tarang/screens/playlist_page.dart';
+import 'package:tarang/screens/user_songs_page.dart';
+import 'package:tarang/utilities/language_utils.dart';
 
 // Preferences
 

@@ -20,7 +20,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/widgets/marquee.dart';
+import 'package:tarang/widgets/marquee.dart';
 
 class SectionTitle extends StatelessWidget {
   const SectionTitle(this.title, this.primaryColor, {super.key, this.icon});

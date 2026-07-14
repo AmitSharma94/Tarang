@@ -21,24 +21,24 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart' show logger, audioHandler;
-import 'package:Tarang/services/common_services.dart';
-import 'package:Tarang/services/data_manager.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/app_utils.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/playlist_utils.dart';
-import 'package:Tarang/utilities/song_filtering.dart';
-import 'package:Tarang/widgets/confirmation_dialog.dart';
-import 'package:Tarang/widgets/mini_player_bottom_space.dart';
-import 'package:Tarang/widgets/playlist_cube.dart';
-import 'package:Tarang/widgets/playlist_page/empty_playlist_state.dart';
-import 'package:Tarang/widgets/playlist_page/playlist_header.dart';
-import 'package:Tarang/widgets/playlist_page/search_bar_section.dart';
-import 'package:Tarang/widgets/song_bar.dart';
-import 'package:Tarang/widgets/sort_chips.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart' show logger, audioHandler;
+import 'package:tarang/services/common_services.dart';
+import 'package:tarang/services/data_manager.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/app_utils.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/playlist_utils.dart';
+import 'package:tarang/utilities/song_filtering.dart';
+import 'package:tarang/widgets/confirmation_dialog.dart';
+import 'package:tarang/widgets/mini_player_bottom_space.dart';
+import 'package:tarang/widgets/playlist_cube.dart';
+import 'package:tarang/widgets/playlist_page/empty_playlist_state.dart';
+import 'package:tarang/widgets/playlist_page/playlist_header.dart';
+import 'package:tarang/widgets/playlist_page/search_bar_section.dart';
+import 'package:tarang/widgets/song_bar.dart';
+import 'package:tarang/widgets/sort_chips.dart';
 
 enum OfflineSortType { default_, title, artist, dateAdded }
 

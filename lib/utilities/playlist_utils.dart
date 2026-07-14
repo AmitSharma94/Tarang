@@ -20,7 +20,7 @@
  */
 
 import 'dart:math';
-import 'package:Tarang/services/playlist_download_service.dart';
+import 'package:tarang/services/playlist_download_service.dart';
 
 class PlaylistUtils {
   static bool isArtistPlaylist(dynamic playlist) =>

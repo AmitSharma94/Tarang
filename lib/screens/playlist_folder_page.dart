@@ -21,17 +21,17 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/constants/app_constants.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/app_utils.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/utilities/playlist_utils.dart';
-import 'package:Tarang/widgets/confirmation_dialog.dart';
-import 'package:Tarang/widgets/dialog_item.dart';
-import 'package:Tarang/widgets/mini_player_bottom_space.dart';
-import 'package:Tarang/widgets/playlist_bar.dart';
+import 'package:tarang/constants/app_constants.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/app_utils.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/utilities/playlist_utils.dart';
+import 'package:tarang/widgets/confirmation_dialog.dart';
+import 'package:tarang/widgets/dialog_item.dart';
+import 'package:tarang/widgets/mini_player_bottom_space.dart';
+import 'package:tarang/widgets/playlist_bar.dart';
 
 class PlaylistFolderPage extends StatefulWidget {
   const PlaylistFolderPage({

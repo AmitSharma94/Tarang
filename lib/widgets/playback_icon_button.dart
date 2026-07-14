@@ -22,8 +22,8 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
 
 Widget buildPlaybackIconButton(
   double iconSize,

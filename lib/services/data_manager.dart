@@ -24,8 +24,8 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart' show logger;
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart' show logger;
 
 // Cache durations for different types of data
 const Duration songCacheDuration = Duration(hours: 1, minutes: 30);

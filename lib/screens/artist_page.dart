@@ -21,14 +21,14 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:Tarang/main.dart' show logger;
-import 'package:Tarang/screens/playlist_page.dart';
-import 'package:Tarang/services/artist_service.dart';
-import 'package:Tarang/services/playlists_manager.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/widgets/mini_player_bottom_space.dart';
-import 'package:Tarang/widgets/playlist_page/empty_playlist_state.dart';
-import 'package:Tarang/widgets/spinner.dart';
+import 'package:tarang/main.dart' show logger;
+import 'package:tarang/screens/playlist_page.dart';
+import 'package:tarang/services/artist_service.dart';
+import 'package:tarang/services/playlists_manager.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/widgets/mini_player_bottom_space.dart';
+import 'package:tarang/widgets/playlist_page/empty_playlist_state.dart';
+import 'package:tarang/widgets/spinner.dart';
 
 class ArtistPage extends StatefulWidget {
   const ArtistPage({super.key, required this.artistId, this.artistData});

@@ -20,10 +20,10 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/services/playlist_download_service.dart';
-import 'package:Tarang/utilities/flutter_toast.dart';
-import 'package:Tarang/widgets/confirmation_dialog.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/services/playlist_download_service.dart';
+import 'package:tarang/utilities/flutter_toast.dart';
+import 'package:tarang/widgets/confirmation_dialog.dart';
 
 void showRemoveOfflinePlaylistDialog(BuildContext context, String playlistId) {
   showDialog<void>(

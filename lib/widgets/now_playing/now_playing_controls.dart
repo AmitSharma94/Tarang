@@ -25,14 +25,14 @@ import 'package:audio_service/audio_service.dart';
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:Tarang/extensions/l10n.dart';
-import 'package:Tarang/main.dart';
-import 'package:Tarang/services/router_service.dart';
-import 'package:Tarang/services/settings_manager.dart';
-import 'package:Tarang/utilities/app_utils.dart';
-import 'package:Tarang/widgets/now_playing/marquee_text_widget.dart';
-import 'package:Tarang/widgets/playback_icon_button.dart';
-import 'package:Tarang/widgets/position_slider.dart';
+import 'package:tarang/extensions/l10n.dart';
+import 'package:tarang/main.dart';
+import 'package:tarang/services/router_service.dart';
+import 'package:tarang/services/settings_manager.dart';
+import 'package:tarang/utilities/app_utils.dart';
+import 'package:tarang/widgets/now_playing/marquee_text_widget.dart';
+import 'package:tarang/widgets/playback_icon_button.dart';
+import 'package:tarang/widgets/position_slider.dart';
 
 class NowPlayingControls extends StatelessWidget {
   const NowPlayingControls({

@@ -19,7 +19,7 @@
  *     please visit: https://github.com/gokadzev/Tarang
  */
 
-import 'package:Tarang/main.dart' as m;
+import 'package:tarang/main.dart' as m;
 
 void main() async {
   m.isFdroidBuild = true;
