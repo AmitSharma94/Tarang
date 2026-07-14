@@ -16,7 +16,7 @@
  *
  *
  *     For more information about Musify, including how to contribute,
- *     please visit: https://github.com/AmitSharma94/Tarang
+ *     please visit: https://github.com/gokadzev/Musify
  */
 
 import 'dart:async';
