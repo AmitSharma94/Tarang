@@ -2,4 +2,4 @@ Bug fixes
 - Fixed playlist download button
 - Fixed playlist sorting in queue
 - Fixed tracking offline songs in recently played list
-- Full changelog: https://github.com/gokadzev/Tarang/releases
+- Full changelog: https://github.com/AmitSharma94/Tarang/releases

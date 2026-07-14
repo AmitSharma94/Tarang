@@ -1,9 +1,9 @@
 name: tarang
 description: Tarang - A modern music streaming app built with Flutter!
 
-homepage: https://github.com/gokadzev/Tarang
-repository: https://github.com/gokadzev/Tarang
-issue_tracker: https://github.com/gokadzev/Tarang/issues
+homepage: https://github.com/AmitSharma94/Tarang
+repository: https://github.com/AmitSharma94/Tarang
+issue_tracker: https://github.com/AmitSharma94/Tarang/issues
 
 publish_to: 'none'
 version: 10.1.0+175

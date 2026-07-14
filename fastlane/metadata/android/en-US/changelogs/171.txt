@@ -7,4 +7,4 @@ Bug fixes
 - Fixed original recommendations
 - Fixed automatic song picker
 - Fixed offline playlist metadata syncing
-- Full changelog: https://github.com/gokadzev/Tarang/releases
+- Full changelog: https://github.com/AmitSharma94/Tarang/releases

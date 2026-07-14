@@ -1,3 +1,3 @@
 - Further enhanced the user interface, building on improvements from version 10.0.0
 - Resolved additional bugs and introduced more missing options
-- Full changelog: https://github.com/gokadzev/Tarang/releases
+- Full changelog: https://github.com/AmitSharma94/Tarang/releases

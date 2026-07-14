@@ -1,15 +1,15 @@
 <div align="center">
-<img src="https://github.com/gokadzev/Musify/raw/master/.github/assets/Musify-banner.png" width="100%">
+<img src="https://github.com/AmitSharma94/Tarang/raw/master/.github/assets/Musify-banner.png" width="100%">
 
 # Musify
 
 Unlock the full potential of music: Stream effortlessly with one app!
 
-[![Stars](https://img.shields.io/github/stars/gokadzev/Musify?style=flat-square&color=D3BEAB)](https://github.com/gokadzev/Musify/stargazers)
-[![Forks](https://img.shields.io/github/forks/gokadzev/Musify?style=flat-square&color=D3BEAB)](https://github.com/gokadzev/Musify/fork)
-[![Downloads](https://img.shields.io/github/downloads/gokadzev/Musify/total?style=flat-square&color=D3BEAB)](https://github.com/gokadzev/Musify/releases)
-[![GitHub release](https://img.shields.io/github/v/release/gokadzev/Musify?color=D3BEAB)](https://github.com/gokadzev/Musify/releases)
-[![License](https://img.shields.io/github/license/gokadzev/Musify?color=D3BEAB)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/AmitSharma94/Tarang?style=flat-square&color=D3BEAB)](https://github.com/AmitSharma94/Tarang/stargazers)
+[![Forks](https://img.shields.io/github/forks/AmitSharma94/Tarang?style=flat-square&color=D3BEAB)](https://github.com/AmitSharma94/Tarang/fork)
+[![Downloads](https://img.shields.io/github/downloads/AmitSharma94/Tarang/total?style=flat-square&color=D3BEAB)](https://github.com/AmitSharma94/Tarang/releases)
+[![GitHub release](https://img.shields.io/github/v/release/AmitSharma94/Tarang?color=D3BEAB)](https://github.com/AmitSharma94/Tarang/releases)
+[![License](https://img.shields.io/github/license/AmitSharma94/Tarang?color=D3BEAB)](LICENSE)
 
 ---
 
@@ -46,7 +46,7 @@ Material UI & accent colors & dynamic colors (Android 12+) <br/>
 
 ## Screenshots
 
-| ![Screenshot 1](https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg) | ![Screenshot 2](https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg) | ![Screenshot 3](https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg) | ![Screenshot 4](https://raw.githubusercontent.com/gokadzev/Musify/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg) |
+| ![Screenshot 1](https://raw.githubusercontent.com/AmitSharma94/Tarang/master/fastlane/metadata/android/en-US/images/phoneScreenshots/01.jpg) | ![Screenshot 2](https://raw.githubusercontent.com/AmitSharma94/Tarang/master/fastlane/metadata/android/en-US/images/phoneScreenshots/02.jpg) | ![Screenshot 3](https://raw.githubusercontent.com/AmitSharma94/Tarang/master/fastlane/metadata/android/en-US/images/phoneScreenshots/03.jpg) | ![Screenshot 4](https://raw.githubusercontent.com/AmitSharma94/Tarang/master/fastlane/metadata/android/en-US/images/phoneScreenshots/04.jpg) |
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -55,8 +55,8 @@ Material UI & accent colors & dynamic colors (Android 12+) <br/>
 ## Download
 
 
-[<img src="https://github.com/gokadzev/Musify/raw/master/.github/assets/get-it-on-github.png" alt="Get it on Github" height="80">](https://github.com/gokadzev/Musify/releases/latest)
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on Fdroid" height="80">](https://f-droid.org/packages/com.gokadzev.musify.fdroid)
+[<img src="https://github.com/AmitSharma94/Tarang/raw/master/.github/assets/get-it-on-github.png" alt="Get it on Github" height="80">](https://github.com/AmitSharma94/Tarang/releases/latest)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on Fdroid" height="80">](https://f-droid.org/packages/com.amit94.tarang.fdroid)
 
 
 ---
@@ -65,8 +65,8 @@ Material UI & accent colors & dynamic colors (Android 12+) <br/>
 
 Special thanks to all contributors for their time and effort.
 
-<a href="https://github.com/gokadzev/Musify/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=gokadzev/Musify" alt="Contributors"/>
+<a href="https://github.com/AmitSharma94/Tarang/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AmitSharma94/Tarang" alt="Contributors"/>
 </a>
 
 
@@ -74,13 +74,13 @@ Special thanks to all contributors for their time and effort.
 
 ## Contribute
 
-Contributions are always welcome. Please read our [contributing guidelines](https://github.com/gokadzev/Musify/blob/master/CONTRIBUTING.md) before contributing.
+Contributions are always welcome. Please read our [contributing guidelines](https://github.com/AmitSharma94/Tarang/blob/master/CONTRIBUTING.md) before contributing.
 
 ---
 
 ## F.A.Q
 
-You can see frequently asked questions and their answers [here](https://github.com/gokadzev/Musify/discussions/728).
+You can see frequently asked questions and their answers [here](https://github.com/AmitSharma94/Tarang/discussions/728).
 
 ---
 
@@ -103,7 +103,7 @@ all copyright notices, disclose all changes made, and use the same GPL v3.0 lice
 Prohibited: Closed-source distributions or commercial redistribution of modified versions.
 ```
 
-See the [GNU General Public License](https://github.com/gokadzev/Musify/blob/master/LICENSE) for full details.
+See the [GNU General Public License](https://github.com/AmitSharma94/Tarang/blob/master/LICENSE) for full details.
 
 ---
 

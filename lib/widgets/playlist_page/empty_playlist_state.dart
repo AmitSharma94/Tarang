@@ -16,7 +16,7 @@
  *
  *
  *     For more information about Tarang, including how to contribute,
- *     please visit: https://github.com/gokadzev/Tarang
+ *     please visit: https://github.com/AmitSharma94/Tarang
  */
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';

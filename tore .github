@@ -13,13 +13,13 @@
        options:[m
          - label: I have searched the existing issues and confirmed that this is a new issue, not a duplicate or related to another open issue.[m
            required: true[m
-[31m-        - label: I read the [FAQ section](https://github.com/gokadzev/Musify/discussions/340) and there's nothing mentioned about this issue.[m
-[32m+[m[32m        - label: I read the [FAQ section](https://github.com/gokadzev/Tarang/discussions/340) and there's nothing mentioned about this issue.[m
+[31m-        - label: I read the [FAQ section](https://github.com/AmitSharma94/Tarang/discussions/340) and there's nothing mentioned about this issue.[m
+[32m+[m[32m        - label: I read the [FAQ section](https://github.com/AmitSharma94/Tarang/discussions/340) and there's nothing mentioned about this issue.[m
            required: true[m
          - label: I have written a short but informative title.[m
            required: true[m
-[31m-        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/gokadzev/Musify/releases).[m
-[32m+[m[32m        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/gokadzev/Tarang/releases).[m
+[31m-        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/AmitSharma94/Tarang/releases).[m
+[32m+[m[32m        - label: I have updated the app to the latest version. You can find the latest version [here](https://github.com/AmitSharma94/Tarang/releases).[m
            required: true[m
          - label: I will fill out all the sections in this issue report.[m
            required: true[m
@@ -47,8 +47,8 @@
        options:[m
          - label: I have searched the existing issues and confirmed that this feature is not already requested.[m
            required: true[m
-[31m-        - label: I read the [FAQ section](https://github.com/gokadzev/Musify/discussions/340) and there's nothing mentioned about this feature.[m
-[32m+[m[32m        - label: I read the [FAQ section](https://github.com/gokadzev/Tarang/discussions/340) and there's nothing mentioned about this feature.[m
+[31m-        - label: I read the [FAQ section](https://github.com/AmitSharma94/Tarang/discussions/340) and there's nothing mentioned about this feature.[m
+[32m+[m[32m        - label: I read the [FAQ section](https://github.com/AmitSharma94/Tarang/discussions/340) and there's nothing mentioned about this feature.[m
            required: true[m
  [m
    - type: dropdown[m
@@ -77,8 +77,8 @@
        # Release universal Fdroid apk.[m
        - uses: svenstaro/upload-release-action@v2[m
          with:[m
-[31m-          repo_name: gokadzev/Musify[m
-[32m+[m[32m          repo_name: gokadzev/Tarang[m
+[31m-          repo_name: AmitSharma94/Tarang[m
+[32m+[m[32m          repo_name: AmitSharma94/Tarang[m
            repo_token: ${{ secrets.GITHUB_TOKEN }}[m
            file: build/app/outputs/flutter-apk/app-fdroid-release.apk[m
 [31m-          asset_name: Musify-fdroid.apk[m
@@ -95,8 +95,8 @@
      - run: flutter build apk --debug --flavor github[m
      - uses: svenstaro/upload-release-action@v2[m
        with:[m
-[31m-        repo_name: gokadzev/Musify[m
-[32m+[m[32m        repo_name: gokadzev/Tarang[m
+[31m-        repo_name: AmitSharma94/Tarang[m
+[32m+[m[32m        repo_name: AmitSharma94/Tarang[m
          repo_token: ${{ secrets.GITHUB_TOKEN }}[m
          file: build/app/outputs/flutter-apk/app-github-debug.apk[m
 [31m-        asset_name: Musify-debug.apk[m
@@ -117,8 +117,8 @@
        # Release universal Fdroid pre-release apk.[m
        - uses: svenstaro/upload-release-action@v2[m
          with:[m
-[31m-          repo_name: gokadzev/Musify[m
-[32m+[m[32m          repo_name: gokadzev/Tarang[m
+[31m-          repo_name: AmitSharma94/Tarang[m
+[32m+[m[32m          repo_name: AmitSharma94/Tarang[m
            repo_token: ${{ secrets.GITHUB_TOKEN }}[m
            file: build/app/outputs/flutter-apk/app-fdroid-release.apk[m
 [31m-          asset_name: Musify_fdroid.apk[m
@@ -140,8 +140,8 @@
      - name: Release arm64 APK[m
        uses: svenstaro/upload-release-action@v2[m
        with:[m
-[31m-        repo_name: gokadzev/Musify[m
-[32m+[m[32m        repo_name: gokadzev/Tarang[m
+[31m-        repo_name: AmitSharma94/Tarang[m
+[32m+[m[32m        repo_name: AmitSharma94/Tarang[m
          repo_token: ${{ secrets.GITHUB_TOKEN }}[m
          file: build/app/outputs/flutter-apk/app-arm64-v8a-github-release.apk[m
 [31m-        asset_name: Musify-arm64-v8a.apk[m

@@ -16,7 +16,7 @@
  *
  *
  *     For more information about Tarang, including how to contribute,
- *     please visit: https://github.com/gokadzev/Tarang
+ *     please visit: https://github.com/AmitSharma94/Tarang
  */
 
 import 'package:audio_service/audio_service.dart';

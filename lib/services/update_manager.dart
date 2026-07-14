@@ -16,7 +16,7 @@
  *
  *
  *     For more information about Tarang, including how to contribute,
- *     please visit: https://github.com/gokadzev/Tarang
+ *     please visit: https://github.com/AmitSharma94/Tarang
  */
 
 import 'dart:convert';
@@ -36,9 +36,9 @@ import 'package:tarang/utilities/url_launcher.dart';
 import 'package:tarang/widgets/auto_format_text.dart';
 
 const String checkUrl =
-    'https://raw.githubusercontent.com/gokadzev/Tarang/update/check.json';
+    'https://raw.githubusercontent.com/AmitSharma94/Tarang/update/check.json';
 const String releasesUrl =
-    'https://api.github.com/repos/gokadzev/Tarang/releases/latest';
+    'https://api.github.com/repos/AmitSharma94/Tarang/releases/latest';
 const String downloadUrlKey = 'url';
 const String downloadUrlArm64Key = 'arm64url';
 const String downloadFilename = 'Tarang.apk';

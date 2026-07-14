@@ -1,4 +1,4 @@
 Bug fixes
 - Fixed streaming and caching issues
 - Fixed blank screen issue when reopening the app
-- Full changelog: https://github.com/gokadzev/Tarang/releases
+- Full changelog: https://github.com/AmitSharma94/Tarang/releases
